@@ -86,7 +86,6 @@ const gameOver = () => {
     <p>You made <span class="bold red">${errorCount}</span> mistakes</p>
     <button onclick="closeModal()">Close</button>
   `;
-
   // restart everything
   startTime = null;
   errorCount = 0;
@@ -140,9 +139,8 @@ startBtn.addEventListener('click', function () {
   start();
 })
 
+// blog page addedd
+
 const openblog = () => {
   window.open("blog.html")
-
-
-
 }
