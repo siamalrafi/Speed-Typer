@@ -220,14 +220,12 @@ button {
     padding: 0 20px;
     width: 100%;
   }
-
   #histories {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
     justify-content: space-around;
   }
-
 }
 
 /* navbar is here */
