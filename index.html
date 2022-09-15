@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Speed Monster</title>
+  <title>My Type Monster</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,7 +13,18 @@
 </head>
 
 <body>
-  <h1 class="title"><img src="./logo.png" /></h1>
+  <!-- Navber section is start -->
+
+  <div class="navbar">
+    <div> <button href="#home">Home</button>
+    </div>
+    <div>
+      <h1 class="title"><img src="./logo.png" /></h1>
+    </div>
+    <div> <button onclick="openblog()" href="#home">Blog</button>
+    </div>
+  </div>
+
   <div id="show-time">0 seconds</div>
 
   <div class="box-container">
@@ -35,10 +46,13 @@
 
   <div id="countdown"></div>
   <div id="modal-background" class="hidden"></div>
-  <div id="result" class="hidden"></div>
+  <div class="center-div">
+    <div id="result" class="hidden"></div>
+  </div>
 
   <script src="./history.js"></script>
   <script src="./script.js"></script>
+  <!-- This is the last tag -->
 </body>
-<!-- This is the last -->
+
 </html>
