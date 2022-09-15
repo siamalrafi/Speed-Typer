@@ -194,6 +194,13 @@ button {
   .card {
     flex-direction: column;
   }
+
+  .navbar {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -211,6 +218,12 @@ button {
     gap: 5px;
     justify-content: space-around;
   }
+  .navbar {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -228,11 +241,11 @@ button {
     justify-content: space-around;
   }
 
-}
-
-/* navbar is here */
-.navbar {
+  .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
+}
+
+/* navbar is here */
