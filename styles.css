@@ -186,11 +186,11 @@ button {
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
- 
   .box-container {
     padding: 0 20px;
     width: 100%;
   }
+
   .card {
     flex-direction: column;
   }
@@ -204,6 +204,7 @@ button {
     padding: 0 20px;
     width: 100%;
   }
+
   #histories {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -213,19 +214,20 @@ button {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-
 @media only screen and (min-width: 993px) and (max-width: 1600px) {
 
   .box-container {
     padding: 0 20px;
     width: 100%;
   }
+
   #histories {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
     justify-content: space-around;
   }
+
 }
 
 /* navbar is here */
