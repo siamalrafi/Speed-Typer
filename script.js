@@ -142,4 +142,7 @@ startBtn.addEventListener('click', function () {
 
 const openblog = () => {
   window.open("blog.html")
+
+
+
 }
