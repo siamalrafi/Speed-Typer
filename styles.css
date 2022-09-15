@@ -204,7 +204,6 @@ button {
     padding: 0 20px;
     width: 100%;
   }
-
   #histories {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
