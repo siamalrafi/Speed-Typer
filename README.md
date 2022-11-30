@@ -1,4 +1,4 @@
-### Speed Typer ---
+# Speed Typer ---
 
 Live Website Link : https://grand-crepe-c639f7.netlify.app/
 
